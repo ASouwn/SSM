@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mybatis_mysql_springweb
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    url: jdbc:mysql://localhost:3380/project
+    username: root
+  thymeleaf:
+    check-template-location: false
