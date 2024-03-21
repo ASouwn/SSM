@@ -1,6 +1,6 @@
 # 说明
-用户学习Mybatis+Mysql+Spring Boot的启动项目。
-## 步骤
+## [mybatis_mysql_springweb](mybatis_mysql_springweb): 学习Mybatis+Mysql+Spring Boot的启动项目。
+### 步骤
 1. 配置文件 application.yaml，除了传统的properties文件，用yaml文件也可以，他的格式是层次的，比起平面的properties文件更加利于管理。
     ~~~
     spring:
@@ -28,3 +28,7 @@
 
       insert into user_info values ('', 'asouwn'), ('', 'skdga');
       ~~~
+---
+## [highConcurrency](highConcurrency): 基于redis的高并发项目
+
+---

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: highConcurrency
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3380/project
+    driver-class-name: com.mysql.cj.jdbc.Driver
