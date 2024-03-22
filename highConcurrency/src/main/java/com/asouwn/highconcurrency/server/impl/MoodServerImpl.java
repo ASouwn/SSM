@@ -16,4 +16,9 @@ public class MoodServerImpl implements MoodServer {
     public List<Mood> listAll() {
         return moodMapper.listAll();
     }
+
+    @Override
+    public Mood find(int id) {
+        return moodMapper.find(id);
+    }
 }

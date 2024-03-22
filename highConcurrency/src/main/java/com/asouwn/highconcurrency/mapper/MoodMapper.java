@@ -10,4 +10,6 @@ import java.util.List;
 public interface MoodMapper {
     @Select("select * from mood")
     List<Mood> listAll();
+    @Select("select * from mood where id = #{id}")
+    Mood find(int id);
 }

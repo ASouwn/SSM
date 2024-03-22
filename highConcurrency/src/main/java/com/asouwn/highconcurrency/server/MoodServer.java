@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface MoodServer {
     List<Mood> listAll();
+    Mood find(int id);
+
 }

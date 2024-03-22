@@ -8,6 +8,6 @@ import lombok.Data;
 @Data
 public class UserMoodParseRel {
     private int id;
-    private String userId;
-    private String modeId;
+    private int user_id;
+    private int mood_id;
 }

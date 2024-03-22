@@ -30,5 +30,14 @@
       ~~~
 ---
 ## [highConcurrency](highConcurrency): 基于redis的高并发项目
+---
+- [jsp开发](https://www.liaoxuefeng.com/wiki/1252599548343744/1266262958498784)
+- [目录没有web的解决办法](https://blog.csdn.net/qq_39997939/article/details/121845891)
+- [IntelliJ Idea中的 Facets 与 Artifacts](https://blog.csdn.net/qcjustone/article/details/109405067)
+---
+### 计划
+用redis来缓存用户点赞的行为，来避免对数据库进行频繁操作造成的访问忙
 
 ---
+
+## [mood](mood): vue.js 项目学习（未起步）

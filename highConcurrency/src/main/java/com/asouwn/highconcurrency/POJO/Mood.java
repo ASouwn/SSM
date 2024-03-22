@@ -9,9 +9,9 @@ public class Mood {
      * 内容
      */
     private String content;
-    private String userId;
+    private int user_id;
     /**
      * 点赞量
      */
-    private String parseNum;
+    private int parse_num;
 }
